@@ -64,7 +64,7 @@ packages:
   utils:
     description:
       ref: null
-      resolved-ref: "2b66787d5144e1ff79e07cc8acc5371d8617a8b5"
+      resolved-ref: "3ab896c64e2caaa2a18a1fa7613a51858c02d14a"
       url: "git://github.com/k4rr1m/dart-utils"
     source: git
     version: "0.0.0"
