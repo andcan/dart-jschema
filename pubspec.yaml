@@ -3,7 +3,7 @@ version: 0.0.0
 author: Andrea Cantafio
 description: A sample command-line application
 environment:
-  sdk: 1.2.0
+  sdk: '>=1.2.0'
 dependencies:
   hop: '>=0.30.3 <0.31.0'
   hop_docgen: 0.1.2+2
