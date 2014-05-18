@@ -29,10 +29,10 @@ import 'package:utils/mirror.dart' as utils_mirrors;
 import 'package:utils/utils.dart' as utils;
 
 
-part 'src/field.dart';
-part 'src/format.dart';
-part 'src/key.dart';
-part 'src/parse.dart';
-part 'src/type.dart';
+part 'jschema/src/field.dart';
+part 'jschema/src/format.dart';
+part 'jschema/src/key.dart';
+part 'jschema/src/parse.dart';
+part 'jschema/src/type.dart';
 
-part 'schema.dart';
+part 'jschema/schema.dart';

@@ -257,7 +257,8 @@ class Schema {
         instance = map;//Error while creating object. Falling back to map representation
       }
       if (null != instance) {
-        value = new utils.Optional (instance);
+        value = new utils.Optional (instance is InstanceMirror ? 
+            instance.reflectee : instance);
       } else {
         value = new utils.Optional(map);
       }
